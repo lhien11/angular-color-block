@@ -1,7 +1,7 @@
 colorBlocks.factory('DataFactory', [function() {
   console.log("data factory running");
   var colors = ['red', 'blue', 'magenta', 'green', 'pink'];
-  var colorsArray = ["AntiqueWhite", "Aqua", "Aquamarine", "Azure", "brown", "purple"];
+  var colorsArray = ["black", "turquoise", "Azure", "brown", "purple"];
 
   // public api
   // ******************************** APIs ************************************//

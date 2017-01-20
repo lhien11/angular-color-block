@@ -1,11 +1,15 @@
 <div class="row">
-  <h1>Settings</h1>
-  <p>{{settings.colors}}</p>
-  <p>{{settings.colorToAdd}}</p>
-  <div id="button-container">
-    <div class="color-button" ng-repeat="color in settings.colorToAdd"
-    ng-style="{background: color}" ng-click="settings.changeColor()"></div>
-  </div>
+    <h1>Settings</h1>
+    <p>{{settings.colors}}</p>
+    <p>{{settings.colorToAdd}}</p>
 
-  </div>
+    <div id="button-container">
+        <h1>Click on the color to add it</h1>
+        <div class="color-button" ng-repeat="color in settings.colorToAdd"
+        ng-style="{background: color}"
+        ng-click="settings.addColor(color)">
+        </div>
+    </div>
+
+
 </div>
