@@ -8,17 +8,17 @@ colorBlocks.controller('SettingsController', ['DataFactory', function(DataFactor
   vm.colorToAdd = DataFactory.colorsArray;
 
   vm.addColor = function(color) {
-    console.log("color added");
+    console.log("Added color");
     DataFactory.addColor(color);
   };
 
   vm.removeColor = function(index){
-    console.log("color removed");
+    console.log("Removed Color");
     DataFactory.removeColor(index);
   };
 
   vm.changeColor = function(index, color) {
-    console.log("color changed");
+    console.log("Changed Color");
     DataFactory.changeColor(index, color);
   };
 
